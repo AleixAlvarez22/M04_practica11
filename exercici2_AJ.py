@@ -1,4 +1,4 @@
-def escullUnNom():
+def escullUnNom(): #Donat un nom, es comproba si esta en la llista o no
     noms = ['Joan', 'Aleix', 'Pablo', 'Edgar', 'Carlos']
     nomEscollit = input("Escriu el teu nom: ")
 
@@ -7,4 +7,3 @@ def escullUnNom():
     else:
         print("{nomEscollit} esta en la llista d'aprobats".format(nomEscollit=nomEscollit))
 
-escullUnNom()

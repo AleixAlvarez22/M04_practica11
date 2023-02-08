@@ -1,4 +1,4 @@
-def comparacio():
+def comparacio(): #Donat dos numeros, et diu quin és més gran, més petit o si és igual
     numero1 = input("Digues el numero 1: ")
     numero2 = input("Digues el numero 2: ")
 
@@ -9,4 +9,5 @@ def comparacio():
     else:
         print("El numero {numero1} es més gran que el numero {numero2}".format(numero1=numero1, numero2=numero2))
 
-comparacio()
+
+
